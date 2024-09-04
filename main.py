@@ -1,6 +1,4 @@
-import nltk
-nltk.download("popular") # importing dataset
-from nltk.corpus import twitter_samples
+from nltk.corpus import twitter_samples # importing samples
 import numpy as np
 import pandas as pd
 import seaborn as sns
