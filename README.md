@@ -1,6 +1,6 @@
 # Sentiment Analysis for text with Logistic Regression
 
-Implemented a Logistic Regression algorithm to classify text data (e.g. tweets and posts) based on sentiment analysis. <br>
+Implemented a Logistic Regression algorithm to classify text data (e.g. tweets and posts) based on sentiment analysis (positive or negative). <br>
 The dataset used is taken from ```from nltk.corpus import twitter_samples```
 
 <hr>
@@ -8,6 +8,11 @@ The dataset used is taken from ```from nltk.corpus import twitter_samples```
 ### USAGE
 Run ```python main.py``` 
 
+### EXAMPLEs
+- ```"Today is beautiful day!! :)"``` prediction -> 1 (positive)
+- ```"I am hopeless for the next week :("``` prediction -> 0 (negative)
+- ```"That decision was a shame!"``` prediction -> 0 (negative)
+    
 <hr>
 
 ### Confusion Matrix
