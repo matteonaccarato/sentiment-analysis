@@ -16,5 +16,7 @@ Run ```python main.py```
 <hr>
 
 ### Confusion Matrix
-Here is the confusion matrix used to define thethe performance of the classification algorithm.
+**Accuracy : 99.7%** <br>
+**Total False Positive/Negative Rate : 0.3%** <br>
+Here is the confusion matrix used to define thethe performance of the classification algorithm. <br>
 ![Confusion Matrix](./confusion_matrix.png)
